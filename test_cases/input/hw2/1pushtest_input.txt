@@ -1,0 +1,3 @@
+push 500
+push 2
+quit

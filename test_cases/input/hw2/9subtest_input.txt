@@ -1,0 +1,4 @@
+push 20
+push 10
+sub
+quit

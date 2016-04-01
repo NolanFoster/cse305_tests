@@ -1,0 +1,21 @@
+mul
+push -6
+push -10
+neg
+swap
+mul
+pop
+pop
+pop
+:true:
+push 8
+push -8
+add
+push -a
+pop
+sub
+pop
+push 500
+push 100
+sub
+quit

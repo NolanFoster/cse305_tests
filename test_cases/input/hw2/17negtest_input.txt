@@ -1,0 +1,9 @@
+push 5
+neg
+push -5
+neg
+:error:
+neg
+:false:
+neg
+quit

@@ -1,0 +1,11 @@
+push 5
+div
+push 5
+push 6
+div
+:false:
+div
+push 2
+push 0
+div
+quit

@@ -1,0 +1,7 @@
+swap
+push 7
+swap
+push 6
+push 5
+swap
+quit

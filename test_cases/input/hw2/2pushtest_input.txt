@@ -1,0 +1,4 @@
+push -0
+push -2.5
+push -2
+quit

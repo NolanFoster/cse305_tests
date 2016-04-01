@@ -1,0 +1,5 @@
+push a
+push 3
+push b
+push c
+quit
