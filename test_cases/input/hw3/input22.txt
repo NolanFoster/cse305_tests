@@ -1,0 +1,12 @@
+let
+push 7
+push 9
+let
+push 1
+push 2
+let
+push 5
+end
+end
+end
+quit

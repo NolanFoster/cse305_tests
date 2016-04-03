@@ -1,0 +1,9 @@
+:false:
+let
+push a
+push 8
+bind
+end
+push 8.9
+if
+quit

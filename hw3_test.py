@@ -10,7 +10,7 @@ for f in os.listdir(path+"test_cases/input/hw2"):
         try:
             hw3.hw3(path+"test_cases/input/hw2"+"/"+f,f.replace('input', 'output'))
         except:
-            print ("Unexpected error:", sys.exc_info()[0])
+            print ("Unexpected error:", sys.exc_info())
 
     if(filecmp.cmp(path+"test_cases/output/"+f.replace('input', 'output'), f.replace('input', 'output'))):
         print("            "+f+" : \033[1;32mPassed\033[0;0m")
@@ -24,7 +24,7 @@ for f in os.listdir(path+"test_cases/input/hw3"):
         try:
             hw3.hw3(path+"test_cases/input/hw3"+"/"+f,f.replace('input', 'output'))
         except:
-            print ("Unexpected error:", sys.exc_info()[0])
+            print ("Unexpected error:", sys.exc_info())
     if(filecmp.cmp(path+"test_cases/output/"+f.replace('input', 'output'), f.replace('input', 'output'))):
         print("            "+f+" : \033[1;32mPassed\033[0;0m")
         os.remove(f.replace('input', 'output'))

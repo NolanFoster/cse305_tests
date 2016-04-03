@@ -1,0 +1,11 @@
+push 7
+push 9
+lessThan
+let
+push 2
+push 3
+push b
+bind
+end
+push 8
+quit

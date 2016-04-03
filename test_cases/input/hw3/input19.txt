@@ -1,0 +1,6 @@
+let
+push a1
+push 7.2
+bind
+end
+quit

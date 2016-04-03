@@ -1,0 +1,8 @@
+push "a"
+push a
+push a
+push 12
+bind
+bind
+bind
+quit

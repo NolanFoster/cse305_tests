@@ -1,0 +1,12 @@
+let
+push 1
+push 2
+end
+add
+let
+push a1
+push 7
+bind
+end
+add
+quit

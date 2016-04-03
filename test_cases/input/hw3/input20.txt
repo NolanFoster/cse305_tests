@@ -1,0 +1,8 @@
+push 1
+let
+push 2
+push 3
+push 4
+end
+push 5
+quit

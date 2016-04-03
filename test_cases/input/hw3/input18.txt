@@ -1,0 +1,6 @@
+let
+push 3
+push 10
+end
+add
+quit

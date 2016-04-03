@@ -1,0 +1,4 @@
+push a
+push "a"
+:true:
+quit

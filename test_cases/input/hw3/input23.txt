@@ -1,0 +1,10 @@
+push b
+push 8
+bind
+push a
+push b
+bind
+push a
+push a
+mul
+quit

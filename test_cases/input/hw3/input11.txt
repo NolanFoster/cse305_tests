@@ -1,0 +1,7 @@
+:true:
+:false:
+:false:
+if
+not
+push 7.8
+quit

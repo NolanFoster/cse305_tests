@@ -1,0 +1,10 @@
+push a
+push 17
+bind
+push b
+push 3
+bind
+push a
+push b
+add
+quit
