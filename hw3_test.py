@@ -26,7 +26,7 @@ def python_test(hw):
             failed=failed+1
             if output:
                 print("            "+f+" : \033[1;31mFailed\033[0;0m")
-    print('\033[1;34m'+str(passed)+" tests passed of "+str(total)+'\033[0;0m')
+    print('\033[1;32m'+str(passed)+"\033[0;0m"+' \033[1;37mtests passed of '+str(total)+'\033[0;0m')
 
 def java_test(hw):
     passed=0
@@ -52,7 +52,7 @@ def java_test(hw):
 
     os.remove('tester.class')
     os.remove('hw3.class')
-    print('\033[1;34m'+str(passed)+" tests passed of "+str(total)+'\033[0;0m')
+    print('\033[1;32m'+str(passed)+'\033[0;0m \033[1;37mtests passed of ' +str(total)+'\033[0;0m')
 
 def sml_test(hw):
     for f in os.listdir(path+"test_cases/input/"+hw):
@@ -69,14 +69,16 @@ def sml_test(hw):
             print("            "+f+" : \033[1;31mFailed\033[0;0m")
 
 
-print('\033[1;37m'+"HW 2 Python Tests:"+'\033[0;0m')
+print('\033[1;33m'+"HW 2 Python Tests:"+'\033[0;0m')
 python_test("hw2")
 
-print('\033[1;37m'+"HW 2 Java Tests:"+'\033[0;0m')
-java_test("hw2")
 
-print('\033[1;37m'+"HW 3 Python Tests:"+'\033[0;0m')
+print('\033[1;33m'+"HW 3 Python Tests:"+'\033[0;0m')
 python_test("hw3")
 
-print('\033[1;37m'+"HW 3 Java Tests:"+'\033[0;0m')
+
+print('\033[1;35m'+"HW 2 Java Tests:"+'\033[0;0m')
+java_test("hw2")
+
+print('\033[1;35m'+"HW 3 Java Tests:"+'\033[0;0m')
 java_test("hw3")
