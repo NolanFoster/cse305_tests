@@ -1,0 +1,5 @@
+push 10000
+push 1
+lessThan
+not
+quit
