@@ -38,7 +38,7 @@ def java_test(hw):
         total=total+1
         if os.path.isfile(os.path.join(path+"test_cases/input/"+hw, f)):
             try:
-                check_call(['java', 'tester', path+"test_cases/input/"+hw+"/"+f, 'java_'+f.replace('input', 'output')], stdout=DEVNULL, stderr=STDOUT)
+                check_call(['java', 'tester', path+"test_cases/input/"+hw+"/"+f, 'java_'+f.replace('input', 'output')],  stdout=DEVNULL, stderr=STDOUT)
             except:
                 print ("Unexpected error:", sys.exc_info())
 
